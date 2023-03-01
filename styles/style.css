@@ -15,10 +15,11 @@ ul {
 
 header {
     width: 100%;
-    height: 158px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 }
 
 
@@ -57,4 +58,147 @@ header {
 
 .iconsWrapper img {
     cursor: pointer;
+}
+
+.headeritemsWrapper {
+    max-width: 1199.79px;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 44px;
+    height: 47.5px;
+    border-radius: 50px;
+}
+
+.logoWrapper > span {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 43.93px;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    height: 47.5px;
+    width: 240px;
+    gap: 10px;
+}
+
+.contactbuttonsWrapper {
+    display: flex;
+    gap: 68px;
+    align-items: center;
+}
+
+.mailconvertWrapper, .phonelogoWrapper {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #263AE7;
+    border-radius: 256px;
+    justify-content: center;
+}
+
+
+.mailinfoWrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mailinfoWrapper h3, .callusinfoWrapper h3 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.1px;
+    color: #1C2752;
+}
+
+.mailinfoWrapper span, .callusinfoWrapper span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #7E7E7E;
+}
+
+.mailWrapper {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.callUs {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 197px;
+    position: absolute;
+}
+
+.navigationWrapper {
+    max-width: 1199px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #FFB342;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #2F2F2F;
+}
+
+.navitemPages {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.haveanyQuestion {
+    padding: 20px 22px 21px;
+    background-color: #1C2752;
+    display: flex;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.haveanyQuestion span {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    line-height: 24.2px;
 }

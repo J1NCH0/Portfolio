@@ -13,3 +13,7 @@ function gotoTwitter () {
 function gotoPinterest () {
     window.location.href='https://pin.it/1an3Ivg'
 }
+
+function gotomainPage () {
+    document.location.href='index.html'
+}
