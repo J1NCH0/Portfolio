@@ -75,6 +75,12 @@ header {
     border-radius: 50px;
 }
 
+.logoforComment {
+    width: 30px;
+    height: 29px;
+    border-radius: 25px;
+}
+
 .logoWrapper > span {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
@@ -162,7 +168,7 @@ nav {
     background-color: #FFB342;
 }
 
-.navigation {
+.navigationWrapper ul {
     display: flex;
     align-items: center;
     width: 700px;
@@ -170,7 +176,7 @@ nav {
     list-style-type: none;
 }
 
-.navigation a {
+.navigationWrapper ul a {
     text-decoration: none;
     font-family: Inter, sans-serif;
     font-weight: 600;
@@ -185,7 +191,7 @@ nav {
     gap: 3px;
 }
 
-.haveanyQuestion {
+.navigationWrapper button {
     padding: 20px 22px 21px;
     background-color: #1C2752;
     display: flex;
@@ -195,10 +201,156 @@ nav {
     justify-content: center;
 }
 
-.haveanyQuestion span {
+.navigationWrapper button span {
     font-family: Inter, sans-serif;
     font-weight: 600;
     font-size: 20px;
     color: white;
     line-height: 24.2px;
+}
+
+main {
+    margin-top: 66px;
+}
+
+.mainpageBakcground {
+    width: 100%;
+    height: 924px;
+    background-image: url("../images/mainbackgruond.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.mainpageBakcground > div {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.intriganComment {
+    width: 500px;
+    padding: 8px 16px 7px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+}
+
+.intrigancommentWrapper {
+    max-width: 1199px;
+    width: 100%;
+    margin-top: 329px;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+.intriganComment > div {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+
+.intriganComment > div span {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #FFFFFF;
+}
+
+.weareproffesoinalsWrapper {
+    width: 619px;
+    margin-top: 21px;
+}
+
+.weareproffesoinalsWrapper h1 {
+
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.intrigancommentWrapper button {
+    width: 191px;
+    margin-top: 32px;
+    border: none;
+    height: 65px;
+    padding: 20px 33px 21px;
+    box-sizing: border-box;
+    background-color: #FFB342;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #1C2752;
+}
+
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1199px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.experienceWrapper {
+    padding: 8px 16px 7px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 235.48px;
+    height: 45px;
+    background-color: #F4F4F4;
+}
+
+.welcomemessageWrapper {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.welcomemessageWrapper span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+
+.expereienceContainer {
+    display: flex;
+    gap: 60px;
+}
+
+.welcomemessageWrapper img {
+    width: 22.48px;
+    height: 24.27px;
+    border-radius: 50px;
+}
+
+.experienceinfoWrapper {
+    width: 600px;
+    margin: 23.92px 0;
+}
+
+.apkazetifutureWrapper span {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56px;
+    color: #1C2752;
+}
+
+.apkazetifutureWrapper {
+    margin-top: 10px;
 }
