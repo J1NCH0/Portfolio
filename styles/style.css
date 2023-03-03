@@ -503,6 +503,8 @@ main {
     box-sizing: border-box;
     margin-top: 40px;
     padding: 59px 66px;
+    position: relative;
+    top: 15px;
     background-color: #FFFFFF;
 }
 
@@ -563,3 +565,4 @@ main {
     line-height: 24.2px;
     color: #1C2752;
 }
+
