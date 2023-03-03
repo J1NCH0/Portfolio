@@ -696,3 +696,100 @@ main {
     text-align: left;
     margin-top: 30px;
 }
+
+.blurphotoWrapper {
+    width: 845px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 921px;
+    gap: 70px;
+    background-size: 845px 921px;
+    background-repeat: no-repeat;
+    background-image: url("../images/tinchachua.jpg");
+}
+
+.reasonsWrapper {
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    gap: 70px;
+}
+
+.infoBtns {
+    padding: 182px 115px;
+    box-sizing: border-box;
+    width: 630px;
+    height: 693px;
+    background-color: rgba(28, 39, 82, 0.7);
+    backdrop-filter: blur(12.5px);
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.buttonWrapper {
+    display: flex;
+}
+
+ .numberofConcerts {
+     font-family: 'Mulish', sans-serif;
+     font-weight: 800;
+     font-size: 25px;
+     line-height: 31.38px;
+     color: rgba(28, 39, 82, 1);
+     width: 96px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 65px;
+     background-color: #FFB342;
+ }
+
+ .concertsDone {
+     font-family: 'Mulish', sans-serif;
+     font-weight: 700;
+     font-size: 25px;
+     line-height: 31.98px;
+     color: #FFFFFF;
+     padding: 17px 22px;
+     width: 304px;
+     height: 65px;
+     box-sizing: border-box;
+     border: 1px solid #FFFFFF;
+ }
+
+ .infobuttonsWrapper {
+     display: flex;
+     gap: 23px;
+     flex-direction: column;
+ }
+
+ .fewreasonstocomeonConcert {
+     display: flex;
+     margin: 156px 0;
+     flex-direction: column;
+ }
+
+ .reasonsinfoWrapper {
+     display: flex;
+     flex-direction: column;
+     gap: 22px;
+     width: 643px;
+     height: 200px;
+ }
+
+ .cometoConcert {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56.48px;
+    color: #1C2752;
+     margin-top: 9px;
+ }
+
+ .ourconcertareGood {
+     font-family: Inter, sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 21.78px;
+     color: #7E7E7E;
+ }
