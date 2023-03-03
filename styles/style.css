@@ -569,3 +569,130 @@ main {
     position: absolute;
     top: 127px;
 }
+
+
+.servicesinfoWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1329px;
+    background-color: #F4F4F4;
+}
+
+.ourdancesWrapper {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 308px;
+}
+
+.ourdancesLogo {
+    width: 21px;
+    height: 21px;
+    border-radius: 50px;
+}
+
+.ourdancesinfoWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 687px;
+    justify-content: center;
+    align-items: center
+}
+
+
+.ourdancesminiLogo {
+    background-color: #FFFFFF;
+    padding: 8px 16px 7px;
+}
+
+.ourdancesminilogoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.ourdancesminilogoContainer span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #1C2752;
+}
+
+.ourdancesinfoWrapper > h3 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56.48px;
+    margin-top: 10px;
+    color: #1C2752;
+}
+
+.ourdancesinfoWrapper > span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #7E7E7E;
+    margin-top: 18px;
+}
+
+.servicescontainerWrapper {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 25px;
+    margin-top: 37px;
+}
+
+.infocontainerWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #1C2752;
+    padding: 47px 37px 47px 36px;
+    width: 383px;
+    height: 322px;
+    box-sizing: border-box;
+}
+
+.gadavwimavtAziurebs h3 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31.38px;
+    color: #FFB342;
+}
+
+.gadavwimavtAziurebs {
+    display: flex;
+    gap: 11px;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.gadavwimavtAziurebs span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #D2D2D2;
+}
+
+.infocontainerWrapper a {
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 30px;
+}
