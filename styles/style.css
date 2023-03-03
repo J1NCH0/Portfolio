@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
@@ -325,6 +325,7 @@ main {
     font-weight: 500;
     font-size: 18px;
     line-height: 21.78px;
+    color: #1C2752;
 }
 
 .expereienceContainer {
@@ -407,11 +408,158 @@ main {
 }
 
 .experienceyearWrapper ul li {
-
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     color: #7E7E7E;
+}
 
+.serviceWrapper {
+    width: 100%;
+    background-color: #FFB342;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.commericalbtnWrapper {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    gap: 7px;
+    width: 221px;
+    height: 65px;
+    justify-content: center;
+    border: none;
+}
+
+.btnsWrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.btnsWrapper button {
+    cursor: pointer;
+}
+
+.mainServices {
+    margin-top: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.residentialbtnWrapper, .industrialbtnWrapper {
+    width: 221px;
+    height: 65px;
+    border: 1px solid #1C2752;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    background-color: transparent;
+}
+
+
+.serviceWrapper h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56.48px;
+    color: #1C2752;
+}
+
+
+.newProgram {
+    width: 687px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: center;
+    color: #1C2752;
+    margin-top: 18px;
+}
+
+.serviceWrapper span {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #1C2752;
+}
+
+.commericalWrapper {
+    display: flex;
+    max-width: 1200px;
+    gap: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 40px;
+    padding: 59px 66px;
+    background-color: #FFFFFF;
+}
+
+.comercialinfoWrraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.basedonApkhazeti {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #1C2752;
+}
+
+.abkhaziahistoryWrapper {
+    width: 562px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #7E7E7E;
+}
+
+.ensambleapkhazetihistoryWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 13px;
+}
+
+.comercialinfoWrraper > span {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    margin-top: 15px;
+    line-height: 43.93px;
+    color: #1C2752;
+}
+
+.readMore {
+    background-color: #FFB342;
+    padding: 20px 43px 21px;
+    border: none;
+    width: 190px;
+    height: 65px;
+    box-sizing: border-box;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.readMore > span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #1C2752;
 }
