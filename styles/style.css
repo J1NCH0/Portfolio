@@ -1477,9 +1477,10 @@ main {
 
 .topicidWrapper {
     display: flex;
-    position: absolute;
-    top: 1px;
-    left: 115px;
+    justify-content: center;
+    top: -30px;
+    position: relative;
+    margin-bottom: -30px;
 }
 
 
@@ -1489,11 +1490,28 @@ main {
     width: 584px;
     height: 361px;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 .topicinfoWrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 25px;
+}
+
+.articleWrapper {
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.articlesHeader {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56.48px;
+    color: #1C2752;
+    margin-top: 9px;
 }
