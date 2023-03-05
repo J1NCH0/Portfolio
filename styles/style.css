@@ -904,6 +904,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 150px;
 }
 
 .fanscommentWrapper {
@@ -918,13 +919,7 @@ main {
 }
 
 
-.commentbyFan {
-    display: flex;
-    flex-direction: column;
-    padding: 39px;
-    box-sizing: border-box;
-    width: 100%;
-}
+
 
 .fansSay {
     font-family: 'Mulish', sans-serif;
@@ -938,4 +933,127 @@ main {
 
 .fansavatarWrapper {
     border: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    padding: 39px;
+    box-sizing: border-box;
+    width: 100%;
 }
+
+.batonidavitiWrapper {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+.batonidavitiavatarWrapper {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+
+}
+
+.batonidavitiHeading h5 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.1px;
+    color: #1C2752;
+}
+
+.batonidavitiHeading span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #7E7E7E;
+}
+
+.profileavatarWrapper {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.batonidavitiHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.didntCopy {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 29.92px;
+    margin-top: 17px;
+    color: #7E7E7E;
+}
+
+.didntCopy span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29.92px;
+    font-style: italic;
+    color: #1C2752;
+}
+
+.chevronWrapper {
+    display: flex;
+    gap: 12.41px;
+    margin-top: 31.38px;
+}
+
+.chevronWrapper > div {
+    cursor: pointer;
+}
+
+.phonenumberWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.phonenumberWrapper span {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45.46px;
+    color: #FFFFFF;
+}
+
+.anyquestionWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 42px;
+    box-sizing: border-box;
+    background-color: #FFB342;
+    margin-top: 33px;
+}
+
+.anyquestionWrapper h3 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 31px;
+    color: #1C2752;
+    margin-top: 22px;
+}
+
+.ifyouwanttoCome {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #1C2752;
+    margin-top: 12px;
+}
+
