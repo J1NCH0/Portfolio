@@ -296,7 +296,7 @@ main {
 .mainWrapper {
     display: flex;
     flex-direction: column;
-    max-width: 1199px;
+    max-width: 1200px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -331,6 +331,7 @@ main {
 .expereienceContainer {
     display: flex;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .welcomemessageWrapper img {
@@ -442,6 +443,8 @@ main {
     display: flex;
     gap: 30px;
     margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .btnsWrapper button {
@@ -503,6 +506,7 @@ main {
     width: 100%;
     box-sizing: border-box;
     padding: 59px 66px;
+    flex-wrap: wrap;
     background-color: #FFFFFF;
 }
 
@@ -576,8 +580,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1329px;
     background-color: #F4F4F4;
+    padding-bottom: 150px;
 }
 
 .ourdancesWrapper {
@@ -650,6 +654,7 @@ main {
     display: flex;
     gap: 25px;
     margin-top: 37px;
+    justify-content: center;
 }
 
 .infocontainerWrapper {
@@ -711,9 +716,9 @@ main {
 
 .reasonsWrapper {
     display: flex;
-    margin-top: 150px;
     width: 100%;
     gap: 70px;
+    flex-wrap: wrap;
 }
 
 .infoBtns {
@@ -833,7 +838,6 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1134px;
     background-color: #1C2752;
     padding-bottom: 169px;
     align-items: center;
@@ -868,11 +872,12 @@ main {
 }
 
 .dancestopicWrapper {
-    max-width: 1866px;
-    width: 100%;
     display: flex;
     gap: 30px;
     margin-top: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .chanbatopicWrapper {
@@ -909,6 +914,8 @@ main {
 
 .fanscommentWrapper {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 39px;
 }
 
@@ -1010,7 +1017,7 @@ main {
     margin-top: 31.38px;
 }
 
-.chevronWrapper > div {
+.chevronWrapper > img {
     cursor: pointer;
 }
 
@@ -1037,6 +1044,7 @@ main {
     box-sizing: border-box;
     background-color: #FFB342;
     margin-top: 33px;
+    /*height: 347px;*/
 }
 
 .anyquestionWrapper h3 {
@@ -1057,3 +1065,63 @@ main {
     margin-top: 12px;
 }
 
+.forminputWrapper form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.forminputWrapper {
+    padding: 68px 58px;
+    background-color: #F4F4F4;
+    margin-top: 19px;
+}
+
+.forminputWrapper form input, .forminputWrapper form textarea {
+    width: 464px;
+    height: 65px;
+    border: 1px solid #DDDDDD;
+    padding: 21px 33px 22px 33px;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #7E7E7E;
+}
+
+.forminputWrapper form textarea {
+    width: 464px;
+    height: 139px;
+    border: 1px solid #DDDDDD;
+    resize: none;
+    box-sizing: border-box;
+    padding: 21px 0 0 33px;
+}
+
+#submit {
+    margin-top: 15px;
+    background-color: #FFB342;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #1C2752;
+    cursor: pointer;
+}
+
+.formWrapper h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 43.93px;
+    color: #1C2752;
+    margin-top: 15px;
+}
+
+.accountWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
