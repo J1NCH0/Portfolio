@@ -1,0 +1,79 @@
+/* || GENERAL STYLES */
+
+h1, h2, h3, h4, h5, h6, p, body, ul{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ... */
+
+/* || Typography */
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 75.3px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56.48px;
+    color: #1C2752;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #7E7E7E;
+}
+
+.navigation__Item {
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #2F2F2F;
+}
+
+
+
+/* ... */
+
+
+/* || Header */
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header-info {
+    width: 100%;
+    align-items: center;
+    height: 60px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ... */
+
+
+
+
+
