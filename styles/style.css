@@ -1,19 +1,10 @@
-body {
-    margin: 0;
-}
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, body, ul {
     margin: 0;
     padding: 0;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
-}
-
-
-header {
+.headerContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1492,11 +1483,20 @@ main {
     background-repeat: no-repeat;
 }
 
+.kiitobackground {
+    background-image: url("../images/kintauri.jpg");
+    background-size: cover;
+    width: 584px;
+    height: 361px;
+    background-repeat: no-repeat;
+}
+
 .topicinfoWrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 25px;
+    height: 213px;
 }
 
 .articleWrapper {
@@ -1514,4 +1514,107 @@ main {
     line-height: 56.48px;
     color: #1C2752;
     margin-top: 9px;
+}
+
+.topicinfoWrapper h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37.65px;
+    color: #1C2752;
+}
+
+.topicinfoWrapper span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7E7E7E;
+}
+
+.topicinfoWrapper a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #1C2752;
+    text-decoration: none;
+}
+
+.subscribetousContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 342px;
+    align-items: center;
+    width: 100%;
+    background-color: #FFB342;
+    justify-content: center;
+    margin-top: 149px;
+}
+
+.subscribe__main--wrapper {
+    max-width: 1199px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.subscribe__heading--text h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56.48px;
+    color: #1C2752;
+}
+
+.subscribe__heading--text span span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #1C2752;
+}
+
+.subscribe__heading--text span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+
+.subscribe__heading--text {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.subscribe__input--wrapper {
+    display: flex;
+    border: 1px solid white;
+    width: 520px;
+    height: 65px;
+    box-sizing: border-box;
+}
+
+.Email {
+    width: 329px;
+    height: 65px;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    padding-left: 19px;
+}
+
+.subscribeBtn {
+    width: 191px;
+    height: 65px;
+    box-sizing: border-box;
+    border: none;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1C2752;
+    line-height: 24.2px;
 }
