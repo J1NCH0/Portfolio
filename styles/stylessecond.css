@@ -46,6 +46,14 @@ p {
 }
 
 
+.mullish-Bold {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.1px;
+    color: #1C2752;
+}
+
 
 /* ... */
 
@@ -60,7 +68,8 @@ p {
     gap: 30px;
 }
 
-.header-info {
+
+.header__grey-line {
     width: 100%;
     align-items: center;
     height: 60px;
@@ -69,8 +78,106 @@ p {
     justify-content: center;
 }
 
+.info--hours {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1C2752;
+}
+
+.info--socials {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.info {
+    max-width: 1198px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.header__head {
+    max-width: 1199.79px;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__head-logo img {
+    width: 44px;
+    height: 47.5px;
+    border-radius: 50px;
+}
+
+.logoforComment {
+    width: 30px;
+    height: 29px;
+    border-radius: 25px;
+}
+
+.header__head-logo > span {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 43.93px;
+}
+
+.header__head-logo {
+    display: flex;
+    align-items: center;
+    height: 47.5px;
+    width: 240px;
+    gap: 10px;
+}
+
+.header__head-contacts {
+    display: flex;
+    gap: 68px;
+    align-items: center;
+}
+
+.header__mail-convert, .header__callus-logo {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #263AE7;
+    border-radius: 256px;
+    justify-content: center;
+}
 
 
+.header__mail-info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.header__mail {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.header__callus {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
 /* ... */
 
 
