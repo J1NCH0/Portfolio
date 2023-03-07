@@ -1,4 +1,5 @@
 
+
 /* || GENERAL STYLES */
 
 h1, h2, h3, h4, h5, h6, p, body, ul{
@@ -43,6 +44,7 @@ h2 {
     font-size: 45px;
     line-height: 56.48px;
     color: #1C2752;
+    margin-top: 10px;
 }
 
 p {
@@ -53,7 +55,7 @@ p {
     color: #7E7E7E;
 }
 
-.navigation__Item {
+.navigation__item {
     font-family: Inter, sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -61,7 +63,7 @@ p {
     color: #2F2F2F;
 }
 
-.navigation__item-White {
+.navigation__item-white {
     font-family: Inter, sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -70,7 +72,7 @@ p {
 }
 
 
-.mullish-Bold {
+.mullish-bold {
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -78,32 +80,51 @@ p {
     color: #1C2752;
 }
 
-.mullish-extra-Bold {
+.mullish-extra-bold {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
     font-size: 35px;
     line-height: 43.93px;
 }
 
+.title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.title-blue {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1C2752;
+}
+
 /* ... */
+
 
 /* || Header */
 
 .header {
     flex-direction: column;
     gap: 30px;
-}
-
-.header-header__grey-Line {
     width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-.header__grey-Line {
+
+.header__grey-line {
     height: 60px;
     background-color: #F2F2F2;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .info {
@@ -122,7 +143,7 @@ p {
     gap: 17px;
 }
 
-.header__Head {
+.header__head {
     max-width: 1199.79px;
     width: 100%;
     height: 68px;
@@ -132,7 +153,7 @@ p {
 }
 
 
-.header__head-Logo {
+.header__head-logo {
     display: flex;
     align-items: center;
     height: 47.5px;
@@ -140,19 +161,19 @@ p {
     gap: 10px;
 }
 
-.header__head-Logo img {
+.header__head-logo img {
     width: 44px;
     height: 47.5px;
     border-radius: 50px;
 }
 
-.header__head-Contacts {
+.header__head-contacts {
     display: flex;
     gap: 68px;
     align-items: center;
 }
 
-.header__mail-Convert, .header__callus-Logo {
+.header__mail-convert, .header__callus-logo {
     width: 60px;
     height: 60px;
     display: flex;
@@ -163,11 +184,12 @@ p {
 }
 
 
-.header__Mail, .header__Callus {
+.header__mail, .header__callus {
     display: flex;
     gap: 11px;
     align-items: center;
 }
+
 
 /* ... */
 
@@ -182,7 +204,7 @@ p {
     position: absolute;
 }
 
-.navigation__Main {
+.navigation__main {
     max-width: 1199px;
     width: 100%;
     box-sizing: border-box;
@@ -193,7 +215,7 @@ p {
     background-color: #FFB342;
 }
 
-.navigation__List {
+.navigation__list {
     display: flex;
     align-items: center;
     width: 700px;
@@ -207,7 +229,7 @@ p {
     gap: 3px;
 }
 
-.navigation__Button {
+.navigation__button {
     padding: 20px 22px 21px;
     background-color: #1C2752;
     display: flex;
@@ -221,12 +243,6 @@ p {
 
 main {
     margin-top: 66px;
-}
-
-.logoforComment {
-    width: 30px;
-    height: 29px;
-    border-radius: 25px;
 }
 
 .main__Background {
@@ -246,7 +262,7 @@ main {
     flex-direction: column;
 }
 
-.main__Header {
+.main__header {
     width: 500px;
     padding: 8px 16px 7px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -261,21 +277,11 @@ main {
     flex-direction: column;
     display: flex;
 }
-.main__Header > div {
+.main__header > div {
     display: flex;
     align-items: center;
     gap: 9px;
 }
-
-
-.main__Header > div span {
-    font-family: Inter, sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21.78px;
-    color: #FFFFFF;
-}
-
 
 
 .main__header-Wrapper button {
@@ -293,8 +299,13 @@ main {
     color: #1C2752;
 }
 
+.main__header-logo {
+    width: 30px;
+    height: 29px;
+    border-radius: 25px;
+}
 
-.mainWrapper {
+.history {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -305,7 +316,7 @@ main {
     margin-top: 150px;
 }
 
-.experienceWrapper {
+.history__header {
     padding: 8px 16px 7px;
     display: flex;
     align-items: center;
@@ -325,48 +336,30 @@ main {
     background-color: white;
 }
 
-.welcomemessageWrapper {
+.history__title {
     display: flex;
     align-items: center;
     gap: 9px;
 }
 
-.welcomemessageWrapper span {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21.78px;
-    color: #1C2752;
-}
 
-.expereienceContainer {
+.history__wrapper{
     display: flex;
     gap: 60px;
     flex-wrap: wrap;
 }
 
-.welcomemessageWrapper img {
+.history__title img {
     width: 22.48px;
     height: 24.27px;
     border-radius: 50px;
 }
 
-.experienceinfoWrapper {
+.history__info {
     width: 600px;
     margin: 23.92px 0;
 }
 
-.apkazetifutureWrapper span {
-    font-family: 'Mulish', sans-serif;
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 56px;
-    color: #1C2752;
-}
-
-.apkazetifutureWrapper {
-    margin-top: 10px;
-}
 
 .aboutBachana {
     display: flex;
@@ -375,14 +368,6 @@ main {
     flex-direction: column;
 }
 
-.aboutBachana p {
-    margin: 0;
-    font-family: Inter, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21.78px;
-    color: #7E7E7E;
-}
 
 .experienceyearWrapper {
     display: flex;
