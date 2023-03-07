@@ -15,6 +15,14 @@ h1, h2, h3, h4, h5, h6, p, body, ul{
     margin-top: 18px;
 }
 
+.top-gap-third {
+    margin-top: 15px;
+}
+
+.bottom-gap {
+    margin-bottom: 28px;
+}
+
 a {
     text-decoration: none;
 }
@@ -546,7 +554,7 @@ main {
 }
 
 
-.service__button-read-more {
+.service__read-more{
     background-color: #FFB342;
     padding: 20px 43px 21px;
     border: none;
@@ -672,7 +680,7 @@ main {
     margin-top: 30px;
 }
 
-.blurphotoWrapper {
+.choose-us__background-photo {
     width: 845px;
     display: flex;
     align-items: center;
@@ -684,14 +692,14 @@ main {
     background-image: url("../images/tinchachua.jpg");
 }
 
-.reasonsWrapper {
+.choose-us {
     display: flex;
     width: 100%;
     gap: 70px;
     flex-wrap: wrap;
 }
 
-.infoBtns {
+.choose-us__list {
     padding: 182px 115px;
     box-sizing: border-box;
     width: 630px;
@@ -701,11 +709,11 @@ main {
     border: 1px solid rgba(0, 0, 0, 1);
 }
 
-.buttonWrapper {
+.choose-us__button {
     display: flex;
 }
 
- .numberofConcerts {
+.choose-us__button-info {
      font-family: 'Mulish', sans-serif;
      font-weight: 800;
      font-size: 25px;
@@ -719,7 +727,7 @@ main {
      background-color: #FFB342;
  }
 
- .concertsDone {
+.concertsDone {
      font-family: 'Mulish', sans-serif;
      font-weight: 700;
      font-size: 25px;
@@ -730,21 +738,21 @@ main {
      height: 65px;
      box-sizing: border-box;
      border: 1px solid #FFFFFF;
- }
+}
 
- .infobuttonsWrapper {
+.choose-us__button-wrapper {
      display: flex;
      gap: 23px;
      flex-direction: column;
- }
+}
 
- .fewreasonstocomeonConcert {
+.reasons {
      display: flex;
      margin: 156px 0;
      flex-direction: column;
- }
+}
 
- .reasonsinfoWrapper {
+.reasons__info {
      display: flex;
      flex-direction: column;
      gap: 22px;
@@ -752,59 +760,30 @@ main {
      height: 200px;
  }
 
- .cometoConcert {
-    font-family: 'Mulish', sans-serif;
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 56.48px;
-    color: #1C2752;
-     margin-top: 9px;
- }
-
- .ourconcertareGood {
-     font-family: Inter, sans-serif;
-     font-weight: 400;
-     font-size: 18px;
-     line-height: 21.78px;
-     color: #7E7E7E;
- }
-
- .yearswithCheckbox {
+.reasons__year-info {
      display: flex;
      gap: 13px;
  }
 
-.yearswithCheckbox > div h4 {
-    font-family: 'Mulish', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25.1px;
-    color: #1C2752;
-}
 
-.yearswithCheckbox > div span {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21.78px;
-    color: #7E7E7E;
+.reasons__year-info > div span {
     width: 513px;
 }
 
-.yearsinfoWrapper {
+.reasons__year-caption {
     display: flex;
     flex-direction: column;
 }
 
 
-.yearswithcheckboxWrapper {
+.reasons__info-years-wrapper {
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin-top: 44px;
 }
 
-.checkoutourrecentDances {
+.recent-dances {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -814,7 +793,7 @@ main {
     justify-content: center;
 }
 
-.dancesWrapper {
+.recent-dances__header {
     display: flex;
     align-items: center;
     margin-top: 169px;
@@ -830,7 +809,16 @@ main {
     color: #FFFFFF;
 }
 
-.chanba {
+.recent-dances__wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.topic {
     background-color: #FFFFFF;
     padding: 21px 22px;
     width: 444px;
@@ -841,16 +829,7 @@ main {
     gap: 23px;
 }
 
-.dancestopicWrapper {
-    display: flex;
-    gap: 30px;
-    margin-top: 60px;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.chanbatopicWrapper {
+.topic__header-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -858,7 +837,7 @@ main {
     gap: 7px;
 }
 
-.chanbatopicWrapper h4 {
+.topic__header-wrapper h4 {
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     font-size: 25px;
@@ -866,7 +845,7 @@ main {
     color: #1C2752;
 }
 
-.inputWrapper {
+.fan-comment-form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -874,21 +853,18 @@ main {
     margin-top: 150px;
 }
 
-.fanscommentWrapper {
+.fan-comment__wrapper {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 39px;
 }
 
-.fanscommentContainer {
+.fan-comment__info {
     display: flex;
     flex-direction: column;
     width: 581px;
 }
-
-
-
 
 .fansSay {
     font-family: 'Mulish', sans-serif;
@@ -900,7 +876,7 @@ main {
     margin-bottom: 23px;
 }
 
-.fansavatarWrapper {
+.fan-account__wrapper {
     border: 1px solid #DDDDDD;
     display: flex;
     flex-direction: column;
@@ -909,20 +885,20 @@ main {
     width: 100%;
 }
 
-.batonidavitiWrapper {
+.fan-avatar {
     width: 70px;
     height: 70px;
     border-radius: 100px;
 }
 
-.batonidavitiavatarWrapper {
+.fan__avatar-info {
     display: flex;
     gap: 11px;
     align-items: center;
 
 }
 
-.batonidavitiHeading h5 {
+.fan__avatar-heading h5 {
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -930,7 +906,7 @@ main {
     color: #1C2752;
 }
 
-.batonidavitiHeading span {
+.fan__avatar-heading span {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -938,7 +914,7 @@ main {
     color: #7E7E7E;
 }
 
-.profileavatarWrapper {
+.fan__avatar-wrapper {
     display: flex;
     align-items: center;
     gap: 11px;
@@ -947,13 +923,13 @@ main {
     border-bottom: 1px solid #DCDCDC;
 }
 
-.batonidavitiHeading {
+.fan__avatar-heading {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.didntCopy {
+.fan-comment {
     width: 100%;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -964,7 +940,7 @@ main {
     color: #7E7E7E;
 }
 
-.didntCopy span {
+.fan-comment span {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 22px;
@@ -973,24 +949,24 @@ main {
     color: #1C2752;
 }
 
-.chevronWrapper {
+.fan__button-wrapper {
     display: flex;
     gap: 12.41px;
     margin-top: 31.38px;
 }
 
-.chevronWrapper > img {
+.fan__button-wrapper > img {
     cursor: pointer;
 }
 
-.phonenumberWrapper {
+.question__phone-wrapper {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 22px;
 }
 
-.phonenumberWrapper span {
+.question__phone-wrapper span {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
     font-size: 30px;
@@ -998,18 +974,17 @@ main {
     color: #FFFFFF;
 }
 
-.anyquestionWrapper {
+.question {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 50px 42px;
     box-sizing: border-box;
     background-color: #FFB342;
-    margin-top: 33px;
-    /*height: 347px;*/
+    height: 347px;
 }
 
-.anyquestionWrapper h3 {
+.question h3 {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
     font-size: 25px;
@@ -1018,7 +993,7 @@ main {
     margin-top: 22px;
 }
 
-.ifyouwanttoCome {
+.question__info {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -1027,19 +1002,19 @@ main {
     margin-top: 12px;
 }
 
-.forminputWrapper form {
+.form__input-wrapper form {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.forminputWrapper {
+.form__input-wrapper {
     padding: 68px 58px;
     background-color: #F4F4F4;
     margin-top: 19px;
 }
 
-.forminputWrapper form input, .forminputWrapper form textarea {
+.form__input-wrapper form input, .form__input-wrapper form textarea {
     width: 464px;
     height: 65px;
     border: 1px solid #DDDDDD;
@@ -1047,7 +1022,7 @@ main {
     box-sizing: border-box;
 }
 
-.forminputWrapper form textarea {
+.form__input-wrapper form textarea {
     width: 464px;
     height: 139px;
     border: 1px solid #DDDDDD;
@@ -1061,7 +1036,7 @@ main {
     background-color: #FFB342;
 }
 
-.formWrapper h2 {
+.form h2 {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
     font-size: 35px;
@@ -1070,7 +1045,7 @@ main {
     margin-top: 15px;
 }
 
-.accountWrapper {
+.fan {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1078,7 +1053,7 @@ main {
     flex-wrap: wrap;
 }
 
-.companyWrapper {
+.company {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1087,14 +1062,14 @@ main {
     flex-wrap: wrap;
 }
 
-.clinetsAvatars {
+.clinets {
     display: flex;
     gap: 94px;
     flex-wrap: wrap;
     margin-top: 44px;
 }
 
-.companyWrapper h3 {
+.company h3 {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
     font-size: 35px;
@@ -1200,12 +1175,14 @@ main {
 }
 
 .customizeheadingWrapper p {
+    width: 579px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #7E7E7E;
     padding: 46px 0;
+    box-sizing: border-box;
 }
 
 .plansWrapper {
