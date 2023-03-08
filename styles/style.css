@@ -546,15 +546,6 @@ main {
     justify-content: center;
 }
 
-.basedonApkhazeti {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21.78px;
-    color: #1C2752;
-}
-
-
 .service__history-wrapper {
     display: flex;
     flex-direction: column;
@@ -574,15 +565,6 @@ main {
     margin-top: 32px;
     cursor: pointer;
 }
-
-.readMore > span {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24.2px;
-    color: #1C2752;
-}
-
 
 .services__wrapper{
     position: absolute;
@@ -1279,11 +1261,6 @@ main {
 .plans__basic-button {
     padding: 20px 108px 21px;
     border: none;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24.2px;
-    color: #1C2752;
     background-color: #FFB342;
     margin-top: 44px;
 }
@@ -1291,11 +1268,6 @@ main {
 .plans__basic-standart-buy {
     padding: 20px 108px 21px;
     border: 1.5px solid #FFB342;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24.2px;
-    color: #1C2752;
     background-color: white;
     margin-top: 44px;
 }
@@ -1470,11 +1442,6 @@ main {
 }
 
 .news__topic-info-wrapper a {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24.2px;
-    color: #1C2752;
     text-decoration: none;
 }
 
@@ -1549,9 +1516,4 @@ main {
     box-sizing: border-box;
     border: none;
     background-color: white;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #1C2752;
-    line-height: 24.2px;
 }
