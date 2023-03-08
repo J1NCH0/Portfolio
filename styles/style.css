@@ -380,7 +380,17 @@ main {
     background-color: #F4F4F4;
 }
 
-.priceandplansWrapper {
+.history__header-white {
+    padding: 8px 16px 7px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 235.48px;
+    height: 45px;
+    background-color: white;
+}
+
+.priceandplans {
     padding: 8px 16px 7px;
     display: flex;
     align-items: center;
@@ -1062,7 +1072,7 @@ main {
     flex-wrap: wrap;
 }
 
-.clinets {
+.clients {
     display: flex;
     gap: 94px;
     flex-wrap: wrap;
@@ -1078,30 +1088,30 @@ main {
     margin-top: 14px;
 }
 
-.brideCompany {
+.client__brider-company {
     display: flex;
     gap: 7px;
     align-items: center;
 }
 
-.buildingCompany {
+.client__building-company {
     display: flex;
     align-items: center;
 }
 
-.constructionCompany {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.cpmpanyCompany {
+.client__construction-company {
     display: flex;
     align-items: center;
     gap: 6px;
 }
 
-.brideCompany h5 {
+.client__cpmpany-company {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.client__brider-company h5 {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
     font-size: 37px;
@@ -1109,7 +1119,7 @@ main {
     color: rgba(28, 39, 82, 0.4);
 }
 
-.buildingCompany h5 {
+.client__building-company h5 {
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     font-size: 32px;
@@ -1117,7 +1127,7 @@ main {
     color: rgba(28, 39, 82, 0.4);
 }
 
-.constructionCompany h5 {
+.client__construction-company h5 {
     font-family: 'Tulpen One', cursive;
     font-weight: 400;
     font-size: 49px;
@@ -1125,7 +1135,7 @@ main {
     color: rgba(28, 39, 82, 0.4);
 }
 
-.cpmpanyCompany h5 {
+.client__cpmpany-company h5 {
     font-family: 'Reem Kufi', sans-serif;
     font-weight: 400;
     font-size: 36px;
@@ -1133,7 +1143,7 @@ main {
     color: rgba(28, 39, 82, 0.4);
 }
 
-.customizeWrapper {
+.packet__wrapper {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -1144,7 +1154,7 @@ main {
     gap: 74px;
 }
 
-.customizemainWrapper {
+.packet {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1154,19 +1164,21 @@ main {
     margin-top: 143px;
 }
 
-.customizeheadingWrapper {
+.packet__header-wrapper {
+    width: 100%;
     display: flex;
-    gap: 144px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.priceandplanWrapper {
+.packet__header {
     display: flex;
     flex-direction: column;
     gap: 9px;
     width: 477px;
 }
 
-.priceandplanWrapper h2 {
+.packet__header h2 {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
     font-size: 45px;
@@ -1174,7 +1186,7 @@ main {
     color: #1C2752;
 }
 
-.customizeheadingWrapper p {
+.packet__header-wrapper p {
     width: 579px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -1185,26 +1197,26 @@ main {
     box-sizing: border-box;
 }
 
-.plansWrapper {
+.plans {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
     width: 100%;
 }
 
-.basicPlan {
+.plans__basic {
     width: 384px;
     padding: 40px;
     box-sizing: border-box;
     background-color: #FFFFFF;
 }
 
-.basicplanContainer {
+.plans__basic--wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.basicHeading {
+.plans__basic-header {
     display: flex;
     flex-direction: column;
     gap: 3px;
@@ -1226,7 +1238,7 @@ main {
     color: #1C2752;
 }
 
-.basicplanHeading span {
+.plans__basic-header-wrapper span {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -1234,7 +1246,7 @@ main {
     color: #7E7E7E;
 }
 
-.basicplanHeading {
+.plans__basic-header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1242,7 +1254,7 @@ main {
     border-bottom: 1px solid #D7D7D7;
 }
 
-.basicplanList {
+.plans__basic-list {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1250,7 +1262,7 @@ main {
     margin-top: 16px;
 }
 
-.basicplanList span {
+.plans__basic-list span {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -1258,13 +1270,13 @@ main {
     color: #7E7E7E;
 }
 
-.listItem {
+.plans__basic-list-item {
     display: flex;
     gap: 12px;
     align-items: center;
 }
 
-.buyNow {
+.plans__basic-button {
     padding: 20px 108px 21px;
     border: none;
     font-family: 'Inter', sans-serif;
@@ -1274,10 +1286,9 @@ main {
     color: #1C2752;
     background-color: #FFB342;
     margin-top: 44px;
-    cursor: pointer;
 }
 
-.buystandartNow {
+.plans__basic-standart-buy {
     padding: 20px 108px 21px;
     border: 1.5px solid #FFB342;
     font-family: 'Inter', sans-serif;
@@ -1287,7 +1298,6 @@ main {
     color: #1C2752;
     background-color: white;
     margin-top: 44px;
-    cursor: pointer;
 }
 
 .popularWrapper {
@@ -1311,13 +1321,13 @@ main {
     gap: 10px;
 }
 
-.affordabledanceWrapper {
+.plans__topic-info {
     display: flex;
     gap: 13px;
     width: 558px;
 }
 
-.affordabledanceWrapper h2 {
+.plans__topic-info h2 {
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -1325,7 +1335,7 @@ main {
     color: #1C2752;
 }
 
-.affordabledanceWrapper div span {
+.plans__topic-info div span {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -1333,26 +1343,26 @@ main {
     color: #7E7E7E;
 }
 
-.affordabledanceheaderWrapper {
+.plans__topic-header {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.topicsWrapper {
+.plans__topic {
     display: flex;
     gap: 82px;
     flex-wrap: wrap;
 }
 
-.latestnewsmainWrapper {
+.news {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.latestnewsWrapper {
+.news__wrapper {
     max-width: 1199px;
     width: 100%;
     display: flex;
@@ -1361,19 +1371,19 @@ main {
     margin-top: 151px;
 }
 
-.articletopicWrapper {
+.news__topic-wrapper {
     width: 100%;
     display: flex;
     gap: 29px;
 }
 
-.articlesHeading {
+.news__header-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.topicprofileWrapper {
+.news__topic-author {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -1383,7 +1393,7 @@ main {
     box-sizing: border-box;
 }
 
-.topictimeWrapper {
+.news__topic-date {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -1393,7 +1403,7 @@ main {
     box-sizing: border-box;
 }
 
-.topicidWrapper {
+.news__topic-author-wrapper {
     display: flex;
     justify-content: center;
     top: -30px;
@@ -1402,7 +1412,7 @@ main {
 }
 
 
-.fanduribackground {
+.news__background {
     background-image: url("../images/fanduri.jpg");
     background-size: cover;
     width: 584px;
@@ -1410,7 +1420,7 @@ main {
     background-repeat: no-repeat;
 }
 
-.kiitobackground {
+.news__background {
     background-image: url("../images/kintauri.jpg");
     background-size: cover;
     width: 584px;
@@ -1418,7 +1428,7 @@ main {
     background-repeat: no-repeat;
 }
 
-.topicinfoWrapper {
+.news__topic-info-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1426,7 +1436,7 @@ main {
     height: 213px;
 }
 
-.articleWrapper {
+.news__topic {
     width: 585px;
     display: flex;
     flex-direction: column;
@@ -1434,7 +1444,7 @@ main {
     margin-top: 40px;
 }
 
-.articlesHeader {
+.news__header {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
     font-size: 45px;
@@ -1443,7 +1453,7 @@ main {
     margin-top: 9px;
 }
 
-.topicinfoWrapper h2 {
+.news__topic-info-wrapper h2 {
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -1451,7 +1461,7 @@ main {
     color: #1C2752;
 }
 
-.topicinfoWrapper span {
+.news__topic-info-wrapper span {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -1459,7 +1469,7 @@ main {
     color: #7E7E7E;
 }
 
-.topicinfoWrapper a {
+.news__topic-info-wrapper a {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -1479,14 +1489,14 @@ main {
     margin-top: 149px;
 }
 
-.subscribe__main--wrapper {
+.subscribe__wrapper {
     max-width: 1199px;
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-.subscribe__heading--text h2 {
+.subscribe__header-wrapper h2 {
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
     font-size: 45px;
@@ -1494,7 +1504,7 @@ main {
     color: #1C2752;
 }
 
-.subscribe__heading--text span span{
+.subscribe__header-wrapper span span{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -1502,20 +1512,20 @@ main {
     color: #1C2752;
 }
 
-.subscribe__heading--text span {
+.subscribe__header-wrapper span {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.78px;
 }
 
-.subscribe__heading--text {
+.subscribe__header-wrapper {
     display: flex;
     flex-direction: column;
     gap: 11px;
 }
 
-.subscribe__input--wrapper {
+.subscribe__input-wrapper {
     display: flex;
     border: 1px solid white;
     width: 520px;
@@ -1523,7 +1533,7 @@ main {
     box-sizing: border-box;
 }
 
-.Email {
+.subscribe__input-email {
     width: 329px;
     height: 65px;
     box-sizing: border-box;
@@ -1533,7 +1543,7 @@ main {
     padding-left: 19px;
 }
 
-.subscribeBtn {
+.subscribe__button {
     width: 191px;
     height: 65px;
     box-sizing: border-box;
